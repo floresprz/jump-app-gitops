@@ -6,11 +6,11 @@ jump-app-argocd:
 
 jump-app-cicd:
   enabled: true
-  namespaceDev: user04-jump-app-cicd
+  namespaceDev: user04-jump-app-dev
   namespacePre: mock-value-pre
   namespacePro: mock-value-pro
   namespaceGitOps: user04-gitops-argocd
-  functTestRepo: https://github.com/acidonper/jump-app-functional-tests.git
+  functTestRepo: https://github.com/floresprz/jump-app-functional-tests.git
   functTestRepoBranch: master
   functTestMicro: front-javascript
   pipeTypes:
